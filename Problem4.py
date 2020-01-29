@@ -23,7 +23,6 @@ def makePalindrome():
     for i in range(100, 1000):
         for j in range(100, 1000):
             if isPalindrome(i*j):
-                #print(i, j)
                 palindromes.append(i*j)
     palindromes.sort()
     return palindromes
